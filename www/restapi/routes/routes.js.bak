@@ -1,0 +1,31 @@
+var appRouter = function (app) {
+  app.get("/new", function(req, res) {
+    
+    var factrul = req.query.url;
+    var facttag = req.query.tag;
+    var factdescription = req.query.desc;
+    console.log(id);
+    
+    res.status(200).send("Welcome to our restful API" );
+  });
+
+
+  app.get("/get", function(req, res) {
+    
+    var chainid= req.query.chainid;
+    console.log(chainid);
+    
+    res.status(200).send("Welcome to our restful API" );
+  });
+
+  app.get("/search", function(req, res) {
+    
+    var mytag= req.query.tag;
+    console.log(mytag);
+    
+    res.status(200).send("Welcome to our restful API" );
+  });
+
+}
+
+module.exports = appRouter;
