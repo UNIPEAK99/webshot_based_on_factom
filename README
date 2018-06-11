@@ -1,0 +1,11 @@
+This project allows use to take a screenshot of a webpage which links Factom Chain and uses Selerium webdriver.
+
+HOW TO RUN?
+
+WEB-part
+cd factom-db
+npm run start
+
+REST-part
+cd www/restapi
+node app.js
