@@ -23,6 +23,7 @@ PythonShell.run('prt.py',options, function (err) {
   if (err) throw err;
   console.log('finished');
 
+/*
 var hash = md5File.sync(`/home/njtu1133/factom-db/public/${num}.png`);
 
 //var hash = md5File.sync(`/home/njtu1133/factom-db/public/google.png`);
@@ -48,6 +49,9 @@ var Client = require('node-rest-client').Client;
     });
 
  });
+	  
+*/	  
+	  
 
 /*
 var hash = md5File.sync(`/home/njtu1133/factom-db/public/image${num}.png`);
