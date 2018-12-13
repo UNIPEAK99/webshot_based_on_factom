@@ -78,8 +78,8 @@ var Client = require('node-rest-client').Client;
 
 
 
-	  res.status(200).send("66c11f9845b474e191faa38fe049affb50a5f364995f618ca9ecc14f3e95ff6b" );*/
-  });
+	  res.status(200).send("66c11f9845b474e191faa38fe049affb50a5f364995f618ca9ecc14f3e95ff6b" );
+  });*/
 
 
   app.get("/get", function(req, res) {
